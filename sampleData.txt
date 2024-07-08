@@ -1,0 +1,83 @@
+ Sample data for products collection
+[
+  {
+    name Sample Product 1,
+    description Description of Sample Product 1,
+    image product1.jpg,
+    pricing 19.99,
+    shippingCost 5.0
+  },
+  {
+    name Sample Product 2,
+    description Description of Sample Product 2,
+    image product2.jpg,
+    pricing 29.99,
+    shippingCost 7.5
+  }
+]
+
+ Sample data for users collection
+[
+  {
+    email user1@example.com,
+    password password1,
+    username User 1,
+    purchaseHistory [],
+    shippingAddress 123 Main St, Anytown, USA
+  },
+  {
+    email user2@example.com,
+    password password2,
+    username User 2,
+    purchaseHistory [],
+    shippingAddress 456 Elm St, Othertown, USA
+  }
+]
+
+ Sample data for comments collection
+[
+  {
+    product productId,
+    user userId,
+    rating 4,
+    text Great product!,
+    images [comment1_image1.jpg, comment1_image2.jpg]
+  },
+  {
+    product productId,
+    user userId,
+    rating 5,
+    text Amazing product!,
+    images [comment2_image1.jpg]
+  }
+]
+
+ Sample data for carts collection
+[
+  {
+    products [productId1, productId2],
+    quantities [1, 2],
+    user userId1
+  },
+  {
+    products [productId2],
+    quantities [3],
+    user userId2
+  }
+]
+
+ Sample data for orders collection
+[
+  {
+    products [productId1, productId2],
+    quantities [1, 2],
+    user userId1,
+    totalPrice 79.98
+  },
+  {
+    products [productId2],
+    quantities [3],
+    user userId2,
+    totalPrice 107.47
+  }
+]
